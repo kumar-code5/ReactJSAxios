@@ -1,0 +1,46 @@
+{
+  "SportsGoods": [
+    {
+      
+      "category": "Sporting Goods",
+      "price": "$49.99",
+      "stocked": true,
+      "name": "Football"
+    },
+    {
+     
+      "category": "Sporting Goods",
+      "price": "$9.99",
+      "stocked": true,
+      "name": "Baseball"
+    },
+    {
+     
+      "category": "Sporting Goods",
+      "price": "$29.99",
+      "stocked": false,
+      "name": "Basketball"
+    },
+    {
+      
+      "category": "Electronics",
+      "price": "$199.99",
+      "stocked": true,
+      "name": "Apple watch"
+    },
+    {
+     
+      "category": "Electronics",
+      "price": "$679.99",
+      "stocked": true,
+      "name": "Apple Iphone"
+    },
+    {
+    
+      "category": "Electronics",
+      "price": "$900.99",
+      "stocked": true,
+      "name": "Apple Mac"
+    }
+  ]
+}

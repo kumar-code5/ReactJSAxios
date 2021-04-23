@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+.show_hide {
+    display:none;
+}
+
+</style>
+</head>
+<body>
+<a href="#" class="show_hide">++</a>
+<div class="slidingDiv" style="display: block;">
+Check out the updated jQuery plugin for doing this: <a href="http://papermashup.com/jquery-show-hide-plugin/" class="show_hide" target="_blank" style="display: inline;">jQuery Show / Hide Plugin</a>
+</div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".slidingDiv").hide();
+$(".show_hide").show();	
+	$('.show_hide').click(function(){
+	$(".slidingDiv").slideToggle();
+	});
+});
+  </script>
+
+</body>
+</html>
